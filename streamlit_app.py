@@ -10,5 +10,33 @@ st.set_page_config(
 # st.write('hi')
 # sidebar = st.sidebar
 # sidebar.title('hi again')
-inpt = st.text_input('Enter text here to display below')
-st.write(inpt)
+# inpt = st.text_input('Enter text here to display below')
+# st.write(inpt)
+def home():
+    pass
+
+def dashboard():
+    pass
+
+def contact_me():
+    pass
+
+def src_code():
+    pass
+
+# st.title('hello')
+# st.write('hi')
+sidebar = st.sidebar
+# sidebar.title('hi again')
+# inpt = st.text_input('Enter text here to display below')
+# st.write(inpt)
+sidebar.title('Navigation')
+sidebar.header('Where do you want to go?')
+if sidebar.button('Home'):
+    home()
+elif sidebar.button('Dashboard'):
+    dashboard()
+elif sidebar.button('Contact Me'):
+    contact_me()
+elif sidebar.button('Source Code'):
+    src_code()
