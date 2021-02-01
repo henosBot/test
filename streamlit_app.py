@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.set_page_config(
-    page_title='test',
+    page_title='hi',
     page_icon='https://imgur.com/a/urHOoK3',
     layout='wide'
 )
